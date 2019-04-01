@@ -1,0 +1,28 @@
+body {
+  color: black;
+  background-color: white;
+  font-style: 'Syncopate', sans-serif;
+  background-image: url("https://filosophy.org/images/writing/using-html5-canvas-to-make-a-generative-background-1.jpeg");
+}
+ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 7px;
+  background: white;
+}
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 3em;
+  }

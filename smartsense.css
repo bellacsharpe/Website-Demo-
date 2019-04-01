@@ -1,0 +1,113 @@
+body {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-style: 'Syncopate', sans-serif;
+  background-image: url("https://filosophy.org/images/writing/using-html5-canvas-to-make-a-generative-background-1.jpeg");
+
+}
+ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 7px;
+  background: white;
+  }
+.titlepagecontent {
+  text-align: center;
+  min-height: 0.5vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+#arrow {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Syncopate', sans-serif;
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Space Mono', monospace;
+}
+#sectiononecontent {
+  text-align: center;
+  font-size: inherit;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(124, 220, 235);
+  border-radius: 50px;
+}
+
+#sectiontwocontent {
+  background-color: rgb(124, 220, 235);
+  padding: 20px;
+  padding: 0;
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 50px;
+}
+p {
+  padding: 15px;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Space Mono', monospace;
+}
+h4 {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 2em;
+  top-padding: 40px;
+  padding: 20px;
+}
+h5 {
+  text-align: center;
+  font-size: 20px;
+}
+h6 {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 2em;
+}
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+#arrowthree {
+  padding: 20px;
+}
+#sectionthreecontent {
+  text-align: center;
+  font-size: inherit;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(124, 220, 235);
+  border-radius: 50px;
+}
