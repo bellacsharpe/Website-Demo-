@@ -6,6 +6,10 @@ body {
   background-image: url("https://filosophy.org/images/writing/using-html5-canvas-to-make-a-generative-background-1.jpeg");
 
 }
+a {
+text-decoration: none;
+color: dodgerblue;
+}
 ul {
   margin: 0;
   padding: 10px;
@@ -23,6 +27,7 @@ li {
   border-radius: 5px;
   padding: 7px;
   background: white;
+  text-decoration: none;
   }
 
 .titlepagecontent {

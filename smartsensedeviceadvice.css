@@ -4,6 +4,10 @@ body {
   font-style: 'Syncopate', sans-serif;
   background-image: url("https://filosophy.org/images/writing/using-html5-canvas-to-make-a-generative-background-1.jpeg");
 }
+a {
+text-decoration: none;
+color: dodgerblue;
+}
 ul {
   margin: 0;
   padding: 10px;
@@ -13,7 +17,7 @@ ul {
   font-family: 'Space Mono', monospace;
   display: flex;
   justify-content: space-evenly;
-}
+  }
 li {
   border-style: solid;
   border-color: black;
@@ -27,12 +31,7 @@ h1 {
   font-size: 3em;
   text-align: center;
 }
-img {
-  margin: auto;
-  border-radius: 130px;
-  background-color:white;
-  padding: 20px;
-}
+
 
 .accordion {
   background-color: rgb(124, 220, 235);
@@ -75,13 +74,7 @@ img {
   justify-content: space-evenly;
 }
 
-.column {
-  margin: 0;
-  padding: 30px;
-  list-style-type: none;
-  text-align: center;
-  justify-content: space-evenly;
-}
+
 
 #devices {
   margin: 30px;
@@ -97,18 +90,12 @@ img {
   width: 50%;
   width: 200px;
   height: 180px;
+  justify-content: space-evenly;
 
 }
 
 /* Make the image to responsive */
-.image {
-  list-style-type: none;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
 
-
-}
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
@@ -117,7 +104,7 @@ img {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 75%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -132,3 +119,9 @@ img {
 .container:hover .overlay {
   opacity: 1;
 }
+
+.image {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;}
